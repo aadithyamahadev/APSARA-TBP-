@@ -1,8 +1,23 @@
 # APSARA Project Export
 
-This repository is a flattened, GitHub-friendly export of the core APSARA project files.
+APSARA is a password security platform with three parts:
 
-It is organized this way so the important runtime pieces are easy to review, share, and push to GitHub without the original nested app folders.
+- A FastAPI backend that handles authentication, password scoring, breach checks, and admin analytics
+- A main frontend for end users to sign in, register, and analyze passwords
+- An admin dashboard for viewing telemetry, scores, recent checks, and policy data
+
+This repository is a flattened GitHub export of the most important runtime files from those apps.
+
+## Why this repo is flat
+
+The original project uses multiple nested app folders. For GitHub sharing, review, and quick browsing, the important files were copied into a single folder with no subfolders.
+
+That makes the repository easier to read because:
+
+- the core files are visible at a glance
+- there is no deep folder traversal
+- the main backend, frontend, and admin pieces are grouped by prefix instead of directory tree
+- it is simpler to share the project as a clean code snapshot
 
 ## What is included
 
@@ -15,13 +30,13 @@ It is organized this way so the important runtime pieces are easy to review, sha
 
 - Empty folders and sample-only assets
 - Generated build output and cache folders
-- Local secrets, env files, and local backup folders
+- Local secrets, env files, and backup folders
 
 ## File naming
 
 The files are prefixed with `backend_`, `frontend_`, or `admin_` because this export is intentionally flat and contains no subfolders.
 
-## Repo purpose
+## Important note
 
 This export is meant for GitHub sharing and code review. It is not the original runnable folder structure.
 
