@@ -44,6 +44,14 @@ If you want to run the apps locally, use the original workspace layout in the pa
 
 ## Push commands
 
+
+Global deployements : 
+https://apsara-frontend.vercel.app/auth
+
+https://apsara-admin-dashboard.vercel.app/login
+
+
+
 ```powershell
 git remote add origin https://github.com/aadithyamahadev/APSARA-TBP-.git
 git push -u origin main
